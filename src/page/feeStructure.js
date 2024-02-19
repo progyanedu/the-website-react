@@ -1,11 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { FiMenu, FiX } from 'react-icons/fi';
+import React from "react";
+import { Link } from "react-router-dom";
+import { FiMenu, FiX } from "react-icons/fi";
+import "../styles/style.css";
 
 // Importing course images from online sources
-import selfPaced from '../data/images/selfpaced.jpg';
-import mentorLed from '../data/images/mentor-led.jpg';
-import Advanced from '../data/images/advanced.webp';
+import selfPaced from "../data/images/selfpaced.jpg";
+import mentorLed from "../data/images/mentor-led.jpg";
+import Advanced from "../data/images/advanced.webp";
 // import cppImage from '../online/image3.jpg';
 // import javascriptImage from '../online/image4.jpg';
 
@@ -73,5 +74,6 @@ const FeesStructure = () => {
         </div>
     )
 }
+
 
 export default FeesStructure;

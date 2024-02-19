@@ -1,5 +1,8 @@
-import React, { useState } from 'react';
-import faqsData from '../data/info/faqsData.json'; // Assuming data is imported correctly
+
+import React, { useState } from "react";
+import { FaPlus, FaMinus } from "react-icons/fa";
+import faqsData from "../data/info/faqsData.json";
+
 
 const FAQs = () => {
   const [activeIndices, setActiveIndices] = useState([]); // State to track multiple active FAQs
@@ -20,15 +23,24 @@ const FAQs = () => {
 
   return (
     <section className="faqs">
-      <span className='font-bold text-2xl md:text-4xl'>Frequently Asked Questions</span>
-      <div className="container faqs_container p-10">
+
+      <h2 className="font-bold text-4xl">Frequently Asked Questions</h2>
+      <div className="container faqs_container">
         {faqsData.map((faq, index) => (
-          <article key={index} className={`faq ${activeIndices.includes(index) ? 'active' : ''}`}>
-            <div className="faq_icon"><i className={`uil ${activeIndices.includes(index) ? 'uil-minus' : 'uil-plus'}`}></i></div>
+          <article
+            key={index}
+            className={`faq ${index === activeIndex ? "active" : ""}`}
+          >
+            <div className="faq_icon" onClick={() => toggleAccordion(index)}>
+              {index === activeIndex ? (
+                <FaMinus size={25} />
+              ) : (
+                <FaPlus size={25} />
+              )}
+            </div>
             <div className="question_answer">
-              <h4>{faq.question}</h4>
-              <button className="toggle-button" onClick={() => toggleAccordion(index)}>Toggle Answer</button>
-              <p>{activeIndices.includes(index) ? faq.answer : ''}</p>
+              <h4 onClick={() => toggleAccordion(index)}>{faq.question}</h4>
+              <p>{faq.answer}</p>
             </div>
           </article>
         ))}
