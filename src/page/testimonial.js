@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <section class="container testimonial_container swiper mySwiper">
       <div className='heading h-[10%] flex items-center justify-center p-20'>
-                <span className='max-w-2xl mb-4 text-xl md:text-4xl font-extrabold'>Fee Structure</span>
+                <span className='max-w-2xl mb-4 text-xl md:text-4xl font-extrabold'>What our students say!</span>
             </div>
              <div class="swiper-wrapper flex gap-10 flex-col md:flex-row">
         <article class="testimonial swiper-slide">

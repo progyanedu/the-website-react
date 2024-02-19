@@ -28,46 +28,45 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full shadow-md py-3 z-50 transition-all duration-300">
-      <div className="container flex justify-between items-center mx-auto h-full ">
-        <Link to="/" className="flex items-center text-start gap-0 line-h-0">
-          <img src={logo} alt="Logo" className="logo-scroll w-[60px] flex text-white logo-scroll transition-all duration-300"
- />
-          <span className="text-lg font-bold">Progyan <br/> Educations</span>
+    <nav className="fixed top-0 left-0 w-full shadow-md py-3 z-50 bg-gray-900 text-white">
+      <div className="container mx-auto flex justify-between items-center">
+        <Link to="/" className="flex items-center">
+          <img src={logo} alt="Logo" className="w-12 h-12 mr-2" />
+          <span className="text-lg font-bold">Progyan Educations</span>
         </Link>
 
         {/* Menu Button */}
         <button
-          className="block md:hidden text-gray-600 focus:outline-none"
+          className="md:hidden text-gray-400 focus:outline-none"
           onClick={handleMenuClick}
         >
           <FiMenu size={24} />
         </button>
 
         {/* Menu Links */}
-        <ul className={`md:flex md:items-center text-white space-x-16 text-xl ${menuOpen ? 'flex' : 'hidden'}`}>
+        <ul className={`md:flex md:items-center space-x-8 text-xl ${menuOpen ? 'flex' : 'hidden'}`}>
           <li>
-            <Link to="/" className=" hover:text-yellow-500 hover:underline transition-colors duration-300">
+            <Link to="/" className="hover:text-yellow-500 transition-colors duration-300">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className=" hover:text-yellow-500 hover:underline transition-colors duration-300">
+            <Link to="/about" className="hover:text-yellow-500 transition-colors duration-300">
               About
             </Link>
           </li>
           <li>
-            <Link to="/courses" className=" hover:text-yellow-500 hover:underline transition-colors duration-300">
+            <Link to="/courses" className="hover:text-yellow-500 transition-colors duration-300">
               Courses
             </Link>
           </li>
           <li>
-            <Link to="/contact" className=" hover:text-yellow-500 hover:underline transition-colors duration-300">
+            <Link to="/contact" className="hover:text-yellow-500 transition-colors duration-300">
               Contact Us
             </Link>
           </li>
           <li>
-            <button className="btn rounded rounded-4xl bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-300">
+            <button className="btn rounded-md bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-300">
               Login
             </button>
           </li>
@@ -75,7 +74,7 @@ const Navbar = () => {
 
         {/* Close Menu Button */}
         <button
-          className={`md:hidden text-gray-600 focus:outline-none ${menuOpen ? 'block' : 'hidden'}`}
+          className={`md:hidden text-gray-400 focus:outline-none ${menuOpen ? 'block' : 'hidden'}`}
           onClick={handleCloseClick}
         >
           <FiX size={24} />

@@ -80,7 +80,7 @@ const Footer = () => {
             <div className="footer_copyright mt-0">
                 <small>Copyright &copy; PROGYAN EDUCATIONS ESTEEMED TO BE Pvt. Ltd. </small>
             </div>
-            <button className='fixed bottom-5 right-5 btn btn-primary' onClick={handleChat}>
+            <button className=' hidden md:fixed bottom-5 right-5 btn btn-primary' onClick={handleChat}>
                 {chat ? 'Close Chat' : 'Chat with us'}
             </button>
             {chat && <Chat handleClose={handleChat} />}

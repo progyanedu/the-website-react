@@ -4,16 +4,19 @@ import Contact from './pages/contact';
 import About from './pages/about';
 import Course from './page/course';
 import Testimonials from './page/testimonial';
-import FAQs from './pages/faqs';
+import FAQs from '../src/page/faqs';
 import Header from './components/header';
 import Partners from './pages/partners';
 import FeeStructure from './page/feeStructure';
+// import Button from './page/button';
+
 
 function Home() {
   return (
     <div>
       {/* Content for the Home page */}
       <Header/>
+      {/* <Button/> */}
       <Course />
       <Testimonials />
       <FAQs />

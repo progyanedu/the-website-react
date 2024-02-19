@@ -114,7 +114,7 @@ nav {
 }
 
 .window-scroll {
-	background: var(--color-primary);
+	background: #1f2641;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 	/* height: 4rem; Adjust the height during scroll */
 }
