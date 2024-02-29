@@ -666,7 +666,7 @@ const About = () => {
             <h3 className="text-2xl font-semibold text-blue-900 mb-2">Er. Ujjwal Shukla</h3>
             <p className="text-sm text-white text-lg font-semibold mb-4">CTO (Chief Technical Officer)</p>
             <p className="text-sm text-white">
-             Ujjwal Shukla serves as the Business to Business Manager at Progyan Educations. He manages relationships with business partners and ensures smooth collaboration.
+             Ujjwal Shukla leads our company's technological vision, driving innovation and strategic direction. With a keen focus on emerging trends, he ensures we remain at the forefront of our industry. His leadership drives growth, efficiency, and customer satisfaction through cutting-edge technology solutions."
             </p>
           </div>
 
