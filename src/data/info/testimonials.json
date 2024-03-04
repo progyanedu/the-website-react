@@ -1,6 +1,37 @@
 [
-    { "name": "John Doe", "role": "Web Developer", "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { "name": "Jane Doe", "role": "Designer", "comment": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." }
-
-  ]
-  
+  {
+    "id": 1,
+    "name": "Diana Ayi",
+    "role": "Student",
+    "avatar": "Avatar3",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 2,
+    "name": "Ernest Achiver",
+    "role": "Web Developer",
+    "avatar": "Avatar2",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 3,
+    "name": "Edem Christ",
+    "role": "Student",
+    "avatar": "Avatar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 4,
+    "name": "Hazia Bintu",
+    "role": "Student",
+    "avatar": "Avatar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 5,
+    "name": "Jane Doe",
+    "role": "Student",
+    "avatar": "Avatar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]

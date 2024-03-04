@@ -1,15 +1,15 @@
 [
     {
         "name": "Company 1",
-        "image": "meta-white.webp"
+        "image": "swiggy.webp"
     },
     {
         "name": "Company 2",
-        "image": "aws-white.webp"
+        "image": "doordash.png"
     },
     {
         "name": "Company 3",
-        "image": "apple-white.webp"
+        "image": "shopdeck.png"
     },
     {
         "name": "Company 4",
@@ -17,19 +17,19 @@
     },
     {
         "name": "Company 5",
-        "image": "docker-white.webp"
+        "image": "wish.png"
     },
     {
         "name": "Company 6",
-        "image": "jpmorgan-white.webp"
+        "image": "proedge.png"
     },
     {
         "name": "Company 7",
-        "image": "salesforce-white.webp"
+        "image": "blinkit.png"
     },
     {
         "name": "Company 8",
-        "image": "google-white.webp"
+        "image": "ro.png"
     },
     {
         "name": "Company 9",
@@ -37,14 +37,14 @@
     },
     {
         "name": "Company 10",
-        "image": "adobe-white.webp"
+        "image": "zepto.png"
     },
     {
         "name": "Company 11",
-        "image": "visa-white.webp"
+        "image": "edutech.png"
     },
     {
         "name": "Company 12",
-        "image": "vercel-white.webp"
+        "image": "deliveroo-white.webp"
     }
 ]
