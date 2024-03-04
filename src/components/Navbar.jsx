@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="border-gray-200 bg-gray-900 p-2">
+    <nav className="border-gray-200 bg-blue-700 p-2">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
         <Link
           to="/"
@@ -52,11 +52,8 @@ const Navbar = () => {
             <FiMenu className="w-5 h-5 text-white " />
           )}
         </button>
-        <div
-          className={`w-full md:block md:w-auto ${menuOpen ? "" : "hidden"}`}
-          id="navbar-default"
-        >
-          <ul className="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border md:p-2 md:px-4 border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  bg-gray-800 md:bg-gray-900 border-gray-700">
+        <div className={`w-full md:block md:w-auto ${menuOpen ? '' : 'hidden'}`} id="navbar-default">
+          <ul className="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border md:p-2 md:px-4 border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  bg-gray-800 md:bg-gray-900 border-gray-700">
             <li>
               <Link
                 to="/"
