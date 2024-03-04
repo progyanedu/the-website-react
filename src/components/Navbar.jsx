@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="border-gray-200 bg-gray-900 p-2">
+    <nav className="border-gray-200 bg-blue-700 p-2">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
         <Link to="/" className="flex items-center text-start gap-0 line-h-0 p-1 ">
           <img src={logo} alt="Logo" className="w-[60px] flex text-white transition-all duration-300"/>
